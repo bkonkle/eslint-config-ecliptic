@@ -1,6 +1,7 @@
-# Airbnb React/JSX Style Guide
+# Ecliptic's React/JSX Style Guide
 
-*A mostly reasonable approach to React and JSX*
+This guide was adapted from the [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react).
+Thanks for sharing, Airbnb!
 
 ## Table of Contents
 
@@ -33,7 +34,7 @@
       return <div />;
     }
   });
-  
+
   // good
   class Listing extends React.Component {
     render() {
@@ -239,7 +240,7 @@
 ## Ordering
 
   - Ordering for class extends React.Component:
-  
+
   1. constructor
   1. optional static methods
   1. getChildContext
@@ -259,27 +260,27 @@
 
   ```javascript
   import React, { Component, PropTypes } from 'react';
-  
+
   const propTypes = {
     id: PropTypes.number.isRequired,
     url: PropTypes.string.isRequired,
     text: PropTypes.string,
   };
-  
+
   const defaultProps = {
     text: 'Hello World',
   };
-  
+
   export default class Link extends Component {
     static methodsAreOk() {
       return true;
     }
-  
+
     render() {
       return <a href={this.props.url} data-id={this.props.id}>{this.props.text}</a>
     }
   }
-  
+
   Link.propTypes = propTypes;
   Link.defaultProps = defaultProps;
   ```

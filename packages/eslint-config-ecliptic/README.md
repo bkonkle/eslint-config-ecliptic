@@ -1,20 +1,22 @@
-# eslint-config-airbnb
+# eslint-config-ecliptic
 
-This package provides Airbnb's .eslintrc as an extensible shared config.
+This package provides Ecliptic's .eslintrc as an extensible shared config. It
+is a fork of Airbnb's [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
+Thanks, Airbnb!
 
 ## Usage
 
 ### With React Style
 
-1. `npm install --save-dev eslint-config-airbnb babel-eslint eslint-plugin-react`
-2. add `"extends": "airbnb"` to your .eslintrc
+1. `npm install --save-dev eslint-config-ecliptic babel-eslint eslint-plugin-react`
+2. add `"extends": "ecliptic"` to your .eslintrc
 
 ### Without React Style
 
-1. `npm install --save-dev eslint-config-airbnb babel-eslint `
-2. add `"extends": "airbnb/base"` to your .eslintrc
+1. `npm install --save-dev eslint-config-ecliptic babel-eslint `
+2. add `"extends": "ecliptic/base"` to your .eslintrc
 
-See [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript) and
+See [Ecliptic's Javascript styleguide](https://github.com/eclipticdev/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
 
