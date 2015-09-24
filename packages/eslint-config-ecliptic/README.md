@@ -1,5 +1,8 @@
 # eslint-config-ecliptic
 
+*Note: The markdown files here have not yet been updated, but the eslint config
+ has. Check back soon to see the documentation. Thanks!*
+
 This package provides Ecliptic's .eslintrc as an extensible shared config. It
 is a fork of Airbnb's [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 Thanks, Airbnb!
