@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish-all": "npm publish && cd ./packages/eslint-config-ecliptic && npm publish"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/eclipticdev/javascript.git"

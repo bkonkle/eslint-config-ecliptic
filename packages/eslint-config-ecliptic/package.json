@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ecliptic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ecliptic's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
