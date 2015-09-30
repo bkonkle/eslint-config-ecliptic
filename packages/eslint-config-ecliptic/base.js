@@ -112,7 +112,9 @@ module.exports = {
     /**
      * Style
      */
-    'indent': [2, 2],                 // http://eslint.org/docs/rules/indent
+    'indent': [2, 2, {                // http://eslint.org/docs/rules/indent
+      'SwitchCase': 1,
+    }],
     'brace-style': [2, '1tbs', {      // http://eslint.org/docs/rules/brace-style
       'allowSingleLine': true,
     }],
