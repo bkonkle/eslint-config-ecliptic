@@ -5,4 +5,4 @@ module.exports = {
     'eslint-config-ecliptic/rules/react',
   ],
   rules: {},
-};
+}

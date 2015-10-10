@@ -39,4 +39,4 @@ module.exports = {
     }],
     'react/wrap-multilines': 2,         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
   },
-};
+}

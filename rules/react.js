@@ -11,4 +11,4 @@ module.exports = {
     // Enforce props alphabetical sorting
     'react/jsx-sort-props': 2,
   },
-};
+}

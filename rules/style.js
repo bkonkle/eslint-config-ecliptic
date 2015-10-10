@@ -6,5 +6,7 @@ module.exports = {
     'indent': [2, 2, {'SwitchCase': 1}],
     // enforce padding within blocks
     'padded-blocks': 0,
+    // require or disallow use of semicolons instead of ASI
+    'semi': [2, 'never'],
   },
-};
+}

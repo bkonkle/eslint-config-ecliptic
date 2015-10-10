@@ -1,6 +1,6 @@
 module.exports = {
   'extends': [
-    'eclint-config-airbnb/base',
+    'eslint-config-airbnb/base',
     'eslint-config-ecliptic/rules/best-practices',
     // 'eslint-config-ecliptic/rules/errors',
     // 'eslint-config-ecliptic/rules/es6',
@@ -20,4 +20,4 @@ module.exports = {
   },
   'parser': 'babel-eslint',
   'rules': {},
-};
+}

@@ -18,6 +18,7 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 * `camelcase` - always require camelcase for properties
 * `indent` - enable the SwitchCase option to indent case statements
 * `padded-blocks` - disable this rule
+* `semi` - this is the big one - never use semicolons!
 
 ### React
 
@@ -47,6 +48,11 @@ Lints ES6+ but does not lint React. Requires `eslint` and `babel-eslint`.
 2. add `"extends": "ecliptic/base"` to your .eslintrc
 
 ## Changelog
+
+### 1.1.0
+
+- no more semicolons!
+- fix a typo in the base config
 
 ### 1.0.0
 
