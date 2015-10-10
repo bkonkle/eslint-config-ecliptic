@@ -17,6 +17,7 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 
 * `camelcase` - always require camelcase for properties
 * `indent` - enable the SwitchCase option to indent case statements
+* `no-unexpected-multiline` - prevent problems when not using semicolons
 * `padded-blocks` - disable this rule
 * `semi` - this is the big one - never use semicolons!
 
