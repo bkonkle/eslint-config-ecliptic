@@ -1,29 +1,36 @@
 {
-  "name": "ecliptic-style",
-  "version": "0.1.0",
-  "description": "A mostly reasonable approach to JavaScript.",
+  "name": "eslint-config-ecliptic",
+  "version": "0.3.0",
+  "description": "Ecliptic's ESLint config, following our styleguide",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-all": "npm publish && cd ./packages/eslint-config-ecliptic && npm publish"
+    "lint": "eslint .",
+    "test": "babel-tape-runner ./test/test-*.js"
   },
-  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/eclipticdev/javascript.git"
+    "url": "https://github.com/eclipticdev/javascript"
   },
   "keywords": [
-    "style guide",
-    "lint",
+    "eslint",
+    "eslintconfig",
+    "config",
     "ecliptic",
-    "es6",
-    "es2015",
-    "react",
-    "jsx"
+    "javascript",
+    "styleguide"
   ],
-  "author": "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)",
+  "author": "Brandon Konkle (https://twitter.com/@bkonkle)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eclipticdev/javascript/issues"
   },
-  "homepage": "https://github.com/eclipticdev/javascript"
+  "homepage": "https://github.com/eclipticdev/javascript",
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "babel-tape-runner": "1.2.0",
+    "eslint": "^1.5.1",
+    "eslint-plugin-react": "^3.4.2",
+    "react": "0.13.3",
+    "tape": "4.2.0"
+  }
 }
