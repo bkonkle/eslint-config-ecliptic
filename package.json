@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ecliptic",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Ecliptic's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -25,12 +25,13 @@
     "url": "https://github.com/eclipticdev/javascript/issues"
   },
   "homepage": "https://github.com/eclipticdev/javascript",
+  "dependencies": {
+    "eslint-config-airbnb": "^0.1.0"
+  },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
-    "babel-tape-runner": "1.2.0",
     "eslint": "^1.5.1",
     "eslint-plugin-react": "^3.4.2",
     "react": "0.13.3",
-    "tape": "4.2.0"
   }
 }
