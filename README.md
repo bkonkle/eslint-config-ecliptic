@@ -23,7 +23,6 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 
 ### React
 
-* `react/display-name` - require a display name
 * `react/jsx-boolean-value` - require values for boolean JSX attributes
 * `react/jsx-quotes` - require double quotes for JSX attributes
 * `react/jsx-sort-prop-types` - require propTypes to be sorted alphabetically
