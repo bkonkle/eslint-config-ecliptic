@@ -49,6 +49,10 @@ Lints ES6+ but does not lint React. Requires `eslint` and `babel-eslint`.
 
 ## Changelog
 
+### 1.2.0
+
+- no more displayName on React components
+
 ### 1.1.0
 
 - no more semicolons!
