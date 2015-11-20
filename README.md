@@ -12,6 +12,7 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 ### Best Practices
 
 * `dot-location` - require the dot to be on the same line as the property
+* `no-unused-expressions` - allow the use of expressions in statement position
 
 ### Style
 
