@@ -50,6 +50,10 @@ Lints ES6+ but does not lint React. Requires `eslint` and `babel-eslint`.
 
 ## Changelog
 
+### 1.3.0
+
+- allow the use of expressions in statement position
+
 ### 1.2.0
 
 - no more displayName on React components
