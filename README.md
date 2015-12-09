@@ -17,6 +17,7 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 ### Style
 
 * `camelcase` - always require camelcase for properties
+* `object-curly-spacing` - return to the default of 'never'
 * `no-unexpected-multiline` - prevent problems when not using semicolons
 * `padded-blocks` - disable this rule
 * `semi` - this is the big one - never use semicolons!
@@ -47,6 +48,10 @@ Lints ES6+ but does not lint React. Requires `eslint` and `babel-eslint`.
 2. add `"extends": "ecliptic/base"` to your .eslintrc
 
 ## Changelog
+
+### 1.5.0
+
+- return `object-curly-spacing` to the default of 'never'
 
 ### 1.4.0
 
