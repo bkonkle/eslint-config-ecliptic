@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/eclipticdev/javascript",
   "dependencies": {
-    "eslint-config-airbnb": "^0.1.0"
+    "eslint-config-airbnb": "^2.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^4.1.3",
-    "eslint": "^1.5.1",
-    "eslint-plugin-react": "^3.4.2",
-    "react": "0.13.3"
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.11.3",
+    "react": "^0.14.3"
   }
 }

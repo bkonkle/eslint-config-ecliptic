@@ -17,7 +17,6 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 ### Style
 
 * `camelcase` - always require camelcase for properties
-* `indent` - enable the SwitchCase option to indent case statements
 * `no-unexpected-multiline` - prevent problems when not using semicolons
 * `padded-blocks` - disable this rule
 * `semi` - this is the big one - never use semicolons!
@@ -25,7 +24,6 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 ### React
 
 * `react/jsx-boolean-value` - require values for boolean JSX attributes
-* `react/jsx-quotes` - require double quotes for JSX attributes
 * `react/jsx-sort-prop-types` - require propTypes to be sorted alphabetically
 * `react/jsx-sort-props` - require props to be sorted alphabetically
 
@@ -49,6 +47,10 @@ Lints ES6+ but does not lint React. Requires `eslint` and `babel-eslint`.
 2. add `"extends": "ecliptic/base"` to your .eslintrc
 
 ## Changelog
+
+### 1.4.0
+
+- remove `indent` and `react/jsx-quotes` because they match airbnb now
 
 ### 1.3.0
 
