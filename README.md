@@ -25,6 +25,7 @@ This ESLint config extends [Airbnb's config](https://github.com/airbnb/javascrip
 ### React
 
 * `react/jsx-boolean-value` - require values for boolean JSX attributes
+* `react/jsx-closing-bracket-location` - the closing bracket should be after props
 * `react/jsx-sort-prop-types` - require propTypes to be sorted alphabetically
 * `react/jsx-sort-props` - require props to be sorted alphabetically
 
@@ -48,6 +49,10 @@ Lints ES6+ but does not lint React. Requires `eslint` and `babel-eslint`.
 2. add `"extends": "ecliptic/base"` to your .eslintrc
 
 ## Changelog
+
+### 1.6.0
+
+- change `react/jsx-closing-bracket-location` to 'after-props'
 
 ### 1.5.0
 
